@@ -9,46 +9,28 @@ inline script; ej behöva ladda in en annan fil, skrivs direkt i html filen.
 &lt;script src=”script.js”>&lt;/script> för att länka en html till till js, brukar göra detta i slutet på &lt;/body>
 
 // för comments eller /* och */ för multiline.
-
 **<span style="text-decoration:underline;">Variabler</span>**
 
+## Variabler
 Let (vb dim), definering av variabel första gången.
-
 let namn = “hello”
-
 Om man definierar om (variabler kan vara dynamiska) använder man ej let
-
 Variabler i JS skrivs med camelcase = firstPersonName
-
 Börja aldrig med nummer, kan bara innehålla number, letter, underscore och dollarsign
-
 Börja alltid med lowercase, annars är det OOP. 
-
 Variable kan vara primitiva eller object. **Alltid dynamiska!**
-
 Primitiva är dom vanliga, 7st, number (heltal+decimal), “string”, bool, 
-
 Undefined (Not yet defined, empty), Null, Symbol, BigInt
-
 Använd typeof operator för att få resultatet av en variable.
-
 console.log(typeof variableNamn);
-
 **const** = värdet kan inte ändras.
-
 Alla bokstäver i stora bokstäver = **constant**, ska aldrig ändras.
-
 använd const så mycket som möjligt, mindre buggar.
-
 **_var = gamla sättet att definiera let, använd ej._**
-
 Alla variabler som definieras inne i ett kod-block, måste definieras utanför också - dom gäller bara inne i kodblocket.
-
 **Iterable **are objects that can be iterated over with for..of
 
-
 ## **<span style="text-decoration:underline;">Strings</span>**
-
 
 ```
 const plane = "Airbus A320 Neo"
